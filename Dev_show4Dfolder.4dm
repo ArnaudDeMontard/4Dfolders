@@ -77,7 +77,6 @@ If ($i_l>0)
 			$path_t:=Replace string($path_t;"_VERSION_";Substring(Application version;1;2))
 			$path_t:=Convert path POSIX to system($path_t)
 			
-			
 	End case 
 	
 	If (Test path name($path_t)<0)
